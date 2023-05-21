@@ -1,0 +1,32 @@
+/*https://www.youtube.com/watch?v=_gH5FhMq8w4*/
+body{
+    background-color: #f3f3f3;
+}
+.menu{
+padding: 0 10px 13px 10px;
+grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+
+}
+
+.heading{
+
+    background-color: red;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding: 25px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+heading>h1{
+
+    font-weight: 400px;
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-bottom: 8px;
+}
+.heading>h3{
+
+    font-weight: 600px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}

@@ -1,0 +1,84 @@
+/*https://www.youtube.com/watch?v=_gH5FhMq8w4*/
+body{
+    background-color: #f3f3f3;
+}
+.menu{
+padding: 0 10px 13px 10px;
+grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+grid-gap: 20px 40px;
+
+}
+
+.heading{
+
+    background-color: red;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding: 25px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+heading>h1{
+
+    font-weight: 400px;
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-bottom: 8px;
+}
+.heading>h3{
+
+    font-weight: 600px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.food-iteam{
+display: grid;
+align-items: center;
+position: relative;
+grid-template-rows: auto 1fr;
+border-radius: 18px;
+box-shadow: 0 0 15px rgb(0,0,0,.1);
+}
+.food-iteam img{
+position: relative;
+width: 70%;
+border-radius: 15px 15px 0 0;
+}
+h1{
+
+    grid-column: 1/-1;
+    text-align: center;
+}
+.detail{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.detail-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.detail-sub>h5{
+    font-weight: 600px;
+    font-size: 18px;
+}
+/* .price{
+    text-align: right;
+} */
+.detail>p{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400px;
+    align-self: stretch;
+}
+.detail>button{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+}
